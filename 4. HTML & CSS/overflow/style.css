@@ -1,0 +1,10 @@
+.container {
+    width: 50%;
+}
+.text {
+    width: 400px;
+    height: 200px;
+    padding: 14px;
+    background-color: aqua;
+    overflow: auto;
+}

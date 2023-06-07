@@ -1,0 +1,35 @@
+div {
+    border: black solid 3px;
+}
+.big {
+    margin: 40px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(65, 225, 172);
+}
+
+.small {
+    position: absolute;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: rgb(187, 67, 143);
+}
+.top-left{
+    top: -10px;
+    left: -10px;
+}
+.top-right {
+    top: -10px;
+    right: -10px;
+}
+.bottom-left {
+    bottom: -10px;
+    left: -10px;
+}
+.bottom-right{
+    bottom: -10px;
+    right: -10px;
+}

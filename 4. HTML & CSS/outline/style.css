@@ -1,0 +1,10 @@
+div {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    outline: dotted rgb(85, 41, 13) 10px;
+    margin: 40px auto;
+}
+div:active {
+    outline: dotted black 10px;
+}

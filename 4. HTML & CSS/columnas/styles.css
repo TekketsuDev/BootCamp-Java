@@ -1,0 +1,23 @@
+html{
+	background-color: cadetblue;
+}
+
+h1 {
+	color: wheat;
+}
+
+p {
+  column-gap: 40px;
+  column-count: 3;
+  column-rule-style: solid;
+  column-rule-color: wheat;
+  column-rule-width: 2px;
+}
+
+p:active {
+  color: bisque;
+  background-color: rgb(61, 71, 72);
+}
+span:hover{
+  color: white;
+}

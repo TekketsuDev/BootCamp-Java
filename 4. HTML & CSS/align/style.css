@@ -1,0 +1,28 @@
+html {
+    background-color: antiquewhite;
+}
+
+div {
+    width: 250px;
+    margin: 40px auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    padding: 15px;
+    font-weight: 700;
+}
+
+
+
+.primero {
+    text-align:left; 
+    vertical-align: middle;
+}
+
+.segundo {
+    text-align:center; 
+}
+
+.tercero {
+    text-align:right; 
+}

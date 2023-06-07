@@ -1,0 +1,34 @@
+ojo cojo ojimetro
+ojo con el perro
+ojeando el metro
+
+
+abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ
+
+
+
+¡Hola desde Regex!
+123 jkljlk .... @ as *``´¨
+eñe
+
+
+
+david bernal
+
+file_record_transcript.pdf	file_record_transcript	Success
+Capture	file_07241999.pdf	file_07241999	Success
+Skip	testfile_fake.pdf.tmp
+
+
+
+pit
+spot
+spate
+spate
+slap two
+respite
+
+
+//(@(\w+))(.(cl|ch))
+
+//@gmail$3

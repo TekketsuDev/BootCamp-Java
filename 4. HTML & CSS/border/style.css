@@ -1,0 +1,23 @@
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-width: 6px;
+
+    border-top-style:dotted;  
+    border-top-color: green;
+
+    border-left-style: double;
+    border-left-color: black;
+    border-right-style: dashed;
+    border-right-color: blue;
+
+    border-bottom-style: solid;
+    border-bottom-color: red ;
+
+}
