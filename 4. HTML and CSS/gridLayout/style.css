@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-size: 18px;
+    font-weight: 500;
+}
+.header, .menu, .hero, .main {
+    color: white;
+}
+
+.image, .extra, .banner {
+    color: black;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "header menu menu menu"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "main main . image"
+    "main main . image"
+    "main main . extra"
+    "footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: aqua;
+}
+.menu{
+    grid-area: menu;
+    background-color: rgb(26, 70, 70);
+}
+.hero {
+    grid-area: hero;
+    background-color: rgb(67, 0, 135);
+}
+.image{
+    grid-area: image;
+    background-color: rgb(52, 191, 121);
+}
+.extra{
+    grid-area: extra;
+    background-color: rgb(72, 45, 14);
+}
+.main{
+    grid-area: main;
+    background-color: rgb(169, 54, 138);
+}
+.banner{
+    grid-area: footer;
+    background-color: rgb(212, 0, 255);
+}
+
+.container > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:426px) and (max-width: 768px) /* (768px < width < 1024px) */ {
+    .container{
+    grid-template-areas: 
+    "header header header header"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "menu main main main"
+    "menu footer footer footer"
+    "menu extra extra image";
+    }
+}
+
+@media (425px > width) {
+    .container{
+    grid-template-areas: 
+    "header"
+    "menu"
+    "hero"
+    "main"
+    "footer"
+    "extra"
+    "image";
+    }
+}

@@ -15,8 +15,7 @@ div {
 
 
 .primero {
-    text-align:left; 
-    vertical-align: middle;
+    text-align:left;
 }
 
 .segundo {
@@ -26,3 +25,7 @@ div {
 .tercero {
     text-align:right; 
 }
+
+.container > * {
+display: flex
+;}

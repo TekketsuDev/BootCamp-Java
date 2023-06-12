@@ -336,11 +336,16 @@ Creamos un alias para acortar comandos de git
 
 </br>
 
-## **15. Guernica**
+
+## *15. Guernica*
 <img src="./img/css14.png">
 
 </br>
 
+## *15. FloatClear*
+<img src="./img/css15.png">
+
+</br>
 # 🅱️ Bootstrap
 
 <br/>

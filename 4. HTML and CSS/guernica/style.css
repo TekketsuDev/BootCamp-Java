@@ -1,0 +1,20 @@
+div{
+    margin: 5px;
+    line-height: 1.15;
+}
+.box1{ 
+    width: 40%;
+    height: 250px;
+    float: left;
+}
+
+.box2{
+    width: 55%;
+    height: 250px;
+    float: right;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+}

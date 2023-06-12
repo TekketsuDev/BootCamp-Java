@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+}
+.box {
+    height: 70px;
+}
+.orange{
+    position: relative;
+    width: 49%;
+    background-color: orange;
+}
+.yellow {
+    width: 100%;
+    background-color: yellow;
+    clear: both;
+}
+.blue {
+    width: 30%;
+    background-color: blue;
+    clear: both;
+}
+.gray {
+    width:20%;
+    background-color: gray;
+}
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+.inlineRight {
+    float: inline-end;
+}
+.inlineLeft {
+    float: inline-start;
+}
