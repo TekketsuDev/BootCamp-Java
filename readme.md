@@ -346,6 +346,45 @@ Creamos un alias para acortar comandos de git
 <img src="./img/css15.png">
 
 </br>
+
+## *16. RGB*
+
+<img src="./img/css16.png">
+
+</br>
+
+## *17. FlexFroggy*
+
+<img src="./img/css17.png">
+
+</br>
+
+## *18. FlexFighther*
+
+<img src="./img/css18.png">
+
+</br>
+
+## *19. GridGarden*
+
+<img src="./img/css19.png">
+
+</br>
+
+## *20. GridLayout*
+
+<img src="./img/css20.png">
+
+</br>
+
+## *21. columnCard*
+
+<img src="./img/css21.png">
+
+</br>
+
+
+
 # 🅱️ Bootstrap
 
 <br/>
