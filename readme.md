@@ -377,17 +377,34 @@ Creamos un alias para acortar comandos de git
 
 </br>
 
-## *21. columnCard*
+## *21. ColumnCard*
 
 <img src="./img/css21.png">
 
 </br>
 
+## *22. Spotify*
+
+<img src="./img/css22.png">
+
+</br>
 
 
 # 🅱️ Bootstrap
 
+## *1. Media Querrys Boostrap*
+
+<img src="./img/bootstrap1.png">
+
+
+## *2. Replace Colors Bostrap*
+<img src="./img/bootstrap2.png">
+<img src="./img/bootstrap3.png">
+
 <br/>
+
+## *3. Grid No Limit Width*
+<img src="./img/bootstrap2.png">
 
 <br/>
 

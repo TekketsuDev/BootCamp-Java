@@ -1,0 +1,8 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+//@import "./node_modules/bootstrap/scss/utilities";  Descomentar cuando trabajemos con la versión 5.1 de Bootstrap
+@import "../node_modules/bootstrap/scss/maps";  //Comentar cuando no trabajemos con la versión 5.3 de Bootstrap
+@import "../node_modules/bootstrap/scss/mixins";
+
