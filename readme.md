@@ -392,19 +392,56 @@ Creamos un alias para acortar comandos de git
 
 # 🅱️ Bootstrap
 
-## *1. Media Querrys Boostrap*
+## *1. Media Querrys*
 
 <img src="./img/bootstrap1.png">
 
 
-## *2. Replace Colors Bostrap*
+## *2. Replace Colors*
 <img src="./img/bootstrap2.png">
+
 <img src="./img/bootstrap3.png">
 
 <br/>
 
 ## *3. Grid No Limit Width*
-<img src="./img/bootstrap2.png">
+<img src="./img/bootstrap4.png">
+
+<br/>
+
+## *4. Grid Limit Width*
+<img src="./img/bootstrap5.png">
+
+<br/>
+
+## *5. Grid Breakpoints*
+<img src="./img/bootstrap6.png">
+
+<br/>
+
+## *6. Grid Auto*
+
+### *6.1*
+<img src="./img/bootstrap7.png">
+
+### *6.2*
+<img src="./img/bootstrap8.png">
+
+```
+Se comporta como una columna normal hasta que llega al breakpoint lg y se estira tanto como puede pasando a la siguente fila
+```
+<br/>
+
+## *7. Grid Positioning*
+
+### *7.1*
+<img src="./img/bootstrap9.png">
+
+### *7.2*
+<img src="./img/bootstrap10.png">
+
+### *7.3 / 7.4 / 7.5*
+<img src="./img/bootstrap11.png">
 
 <br/>
 
