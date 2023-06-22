@@ -445,6 +445,36 @@ Se comporta como una columna normal hasta que llega al breakpoint lg y se estira
 
 <br/>
 
+## *8. TablePos*
+<img src="./img/bootstrap12.png">
+
+<br/>
+
+## *9. Web Responsive*
+
+### *XL/LG/MD Layout*
+<img src="./img/bootstrap13.png">
+
+<br/>
+
+### *SM Layout*
+<img src="./img/bootstrap14.png">
+
+<br/>
+
+### *XS Layout*
+<img src="./img/bootstrap15.png">
+
+<br/>
+
+
+## *9. Grid Testimonials*
+
+<img src="./img/bootstrap16.png">
+
+<br/>
+
+
 # 🟨 🌀 Javascript & jQuery
 
 <br/>
