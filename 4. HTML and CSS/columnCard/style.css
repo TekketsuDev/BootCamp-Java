@@ -45,10 +45,11 @@ body {
    
 }
 
-
-
 .card {
-    padding: 1.2rem;
+    padding: 2.2rem;
+    max-width: 16rem;
+    display: grid;
+    gap: 1rem;
 }
 
 .card--yellow {
@@ -69,6 +70,7 @@ button {
     border-radius: 15px;
     width: 130px;
     padding: 10px;
+    margin-block: 2rem 1rem;
     transition: background .3s cubic-bezier(.95,.05,.8,.04);
 }
 

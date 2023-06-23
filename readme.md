@@ -389,6 +389,19 @@ Creamos un alias para acortar comandos de git
 
 </br>
 
+## *23. gridTestimonials*
+
+<img src="./img/css23.png">
+
+</br>
+
+## *24. Realbnb*
+
+<img src="./img/css24.png">
+
+</br>
+
+
 
 # 🅱️ Bootstrap
 
@@ -464,13 +477,6 @@ Se comporta como una columna normal hasta que llega al breakpoint lg y se estira
 
 ### *XS Layout*
 <img src="./img/bootstrap15.png">
-
-<br/>
-
-
-## *9. Grid Testimonials*
-
-<img src="./img/bootstrap16.png">
 
 <br/>
 

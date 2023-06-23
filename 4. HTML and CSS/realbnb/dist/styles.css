@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  --ft--title: #38B2AC;
+  --ft--black: #000;
+  --bg-white: #fff;
+  --bg-black: #000;
+  --bg-black-opacity: #00000033;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.navigation h1 {
+  color: var(--ft--title);
+  margin: 0.25rem;
+}
+.navigation input {
+  margin: 0.25rem;
+}
+
+/* Components */
+/* Buttons */
+.button--login {
+  padding: 0.25rem 1.5rem;
+  margin: 0.25rem;
+}
+.button--card--like {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border-radius: 6px;
+  background-color: var(--bg-black-opacity);
+}
+.button--card--star {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  border-radius: 6px;
+  background-color: var(--bg-black-opacity);
+}
+
+/* Cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  background-color: #F7FAFC;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.card__header {
+  position: relative;
+}
+.card__header .image-container {
+  position: relative;
+}
+.card__header img {
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=styles.css.map */
