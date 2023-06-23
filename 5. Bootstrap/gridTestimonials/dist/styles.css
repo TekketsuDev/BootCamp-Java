@@ -1,5 +1,6 @@
 * {
-  --bg--violet:hsl(263, 55%, 52%);
+  --bg--violet: hsl(263, 55%, 52%);
+  --bg--violet-opacity: hsla(264.7, 9.2%, 63.7%, 0.5);
   --bg--light-blue-grey: hsl(217, 19%, 35%);
   --bg--very-dark-blue: hsl(219, 29%, 14%);
   --bg--white: hsl(0, 0%, 100%);
@@ -19,23 +20,28 @@ body {
   background-color: var(--n--gray-blue);
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: var(--fs-13);
+  width: 100%;
+  height: 100vh;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 100%;
-  height: 100vh;
-  padding: 10em 5em;
+  height: 100%;
+  padding: 4em 5em;
   gap: 1.2rem;
 }
 
 .card {
   display: flex;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: 1rem 1.5rem;
   border-radius: 12px;
 }
 .card--daniel {
@@ -44,8 +50,19 @@ body {
   grid-row: 1/2;
   position: relative;
 }
-.card--daniel .card__title, .card--daniel .card__text {
+.card--daniel .card__title, .card--daniel .card__subtitle, .card--daniel .card__text, .card--daniel .card__subtext {
   color: var(--bg--white);
+}
+.card--daniel svg {
+  position: absolute;
+  top: 0%;
+  left: 60%;
+}
+.card--daniel .card__text {
+  position: relative;
+}
+.card--daniel img {
+  border: var(--bg--violet-opacity) solid 2px;
 }
 .card--jonathan {
   background-color: var(--bg--light-blue-grey);
@@ -71,6 +88,9 @@ body {
 .card--patrick .card__title, .card--patrick .card__subtitle, .card--patrick .card__text, .card--patrick .card__subtext {
   color: var(--bg--white);
 }
+.card--patrick img {
+  border: var(--bg--violet) solid 2px;
+}
 .card--kira {
   background-color: var(--bg--white);
   grid-column: 4/5;
@@ -82,10 +102,15 @@ body {
 .card__header {
   display: flex;
   align-items: center;
+  padding-bottom: 0.5rem;
 }
 .card__header img {
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
-  border: var(--bg--light-blue-grey) solid 5px;
+}
+.card__person {
+  margin: 0 0.5rem;
 }
 .card__subtitle {
   opacity: 0.5;
@@ -93,8 +118,37 @@ body {
 .card__text {
   font-weight: var(--fw-600);
   font-size: 1.4rem;
+  padding-bottom: 1rem;
 }
 .card__subtext {
   font-weight: var(--fw-500);
   opacity: 0.7;
+}
+
+@media (max-width: 849px) {
+  .card__text {
+    font-size: 1.2rem;
+  }
+  .card__subtext {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+}
+@media (max-width: 550px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+}
+@media (max-width: 550px) {
+  .card--daniel svg {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -477,6 +477,14 @@ Se comporta como una columna normal hasta que llega al breakpoint lg y se estira
 
 # 🟨 🌀 Javascript & jQuery
 
+## *1. typeData*
+
+<img src="./img/javascript1.png">
+
+<br/>
+
+<img src="./img/javascript2.png">
+
 <br/>
 
 <br/>
