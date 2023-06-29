@@ -493,6 +493,165 @@ Se comporta como una columna normal hasta que llega al breakpoint lg y se estira
 
 <br/>
 
+## *2. DefineData*
+
+
+```javascript
+Número (Number)
+
+    // Declaración e inicialización de una variable numérica
+    var numero = 10;
+    console.log(numero); // Imprime el valor: 10
+    console.log(typeof numero); // Imprime el tipo de dato: number
+
+```	
+
+```javascript
+Cadena de caracteres (String)
+
+// Declaración e inicialización de una variable de cadena de caracteres
+var texto = "Hola, mundo!";
+console.log(texto); // Imprime el valor: Hola, mundo!
+console.log(typeof texto); // Imprime el tipo de dato: string
+```	
+
+```javascript
+Booleano (Boolean)
+
+// Declaración e inicialización de una variable booleana
+var esVerdadero = true;
+console.log(esVerdadero); // Imprime el valor: true
+console.log(typeof esVerdadero); // Imprime el tipo de dato: boolean
+```	
+
+```javascript	
+Arreglo (Array)
+
+// Declaración e inicialización de un arreglo
+var listaNumeros = [1, 2, 3, 4, 5];
+console.log(listaNumeros); // Imprime el valor: [1, 2, 3, 4, 5]
+console.log(typeof listaNumeros); // Imprime el tipo de dato: object (en JavaScript, los arreglos son objetos)
+```	
+
+```javascript	
+Objeto (Object)
+
+// Declaración e inicialización de un objeto
+var datosPersona = { nombre: "Juan", edad: 30, ciudad: "Madrid" };
+console.log(datosPersona); // Imprime el valor: { nombre: "Juan", edad: 30, ciudad: "Madrid" }
+console.log(typeof datosPersona); // Imprime el tipo de dato: object
+
+
+```	
+
+```javascript	
+Undefined
+
+// Declaración de una variable sin inicializar
+var variableSinValor;
+console.log(variableSinValor); // Imprime el valor: undefined
+console.log(typeof variableSinValor); // Imprime el tipo de dato: undefined
+
+
+```	
+
+```javascript	
+Variable con scope local y global
+
+// Declaración e inicialización de una variable con scope global
+var variableGlobal = "Variable global";
+
+function miFuncion() {
+  // Declaración e inicialización de una variable con scope local
+  var variableLocal = "Variable local";
+  console.log(variableLocal); // Imprime el valor: Variable local
+  console.log(variableGlobal); // Imprime el valor: Variable global
+}
+
+miFuncion();
+console.log(variableGlobal); // Imprime el valor: Variable global
+console.log(variableLocal); // Generará un error, ya que variableLocal está fuera del scope
+
+
+```	
+
+## *3. PrintData*
+
+<img src="./img/javascript3.png">
+
+<br/>
+
+## *4. MathRandom*
+
+<img src="./img/javascript4.png">
+
+<br/>
+
+## *5. returnData*
+
+<img src="./img/javascript5.png">
+
+<br/>
+
+## *6. Progate Javascript*
+
+<img src="./img/javascript6.png">
+
+<br/>
+
+## *7. SwitchCase Mes del Año*
+
+<img src="./img/javascript7.png">
+
+<br/>
+
+
+## *8. string Letter Replace*
+
+<img src="./img/javascript8.png">
+
+<br/>
+
+
+## *9. For And While*
+
+<img src="./img/javascript9.png">
+
+<br/>
+
+
+
+## *10. ForEach And Do While*
+
+<img src="./img/javascript10.png">
+
+<br/>
+
+## *11. Analize This Code*
+
+```javascript
+let numero = 1;
+let i = 0;
+do{
+  if(i === 0){
+    //Si el valor de i es igual a 0 aumentara el valor de i y reducira el numero de la variable numero. Finalmente imprimira el valor en consola
+    i++;
+    numero--;
+    console.log(' holio' + numero);
+    //Solo iterara una vez ya que el valor i se incrementa y no volvera a ser 0
+  } else{
+   //Si la condicion if no se cumple procedera a aumentar el valor del numero y printearlo en consola
+    numero++;
+    console.log(numero);
+    //Itera 5 veces tantas como la condicion de do while exija
+  }
+} while (numero < 5);
+```
+
+<br/>
+
+
+
 <br/>
 
 # 🐬 MySQL

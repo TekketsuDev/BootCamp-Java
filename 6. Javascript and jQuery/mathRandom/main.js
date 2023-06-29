@@ -1,7 +1,7 @@
 function lanzarMoneda() {
-    var resultado = Math.random();
+    var resultado = Math.round(Math.random());
     console.log(resultado);
-    if (resultado >= 0.5) {
+    if (resultado == 1) {
         return "cara";
     } else {
         return "cruz";
