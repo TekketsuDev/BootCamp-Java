@@ -650,7 +650,17 @@ do{
 
 <br/>
 
+## *12. Array Methods*
 
+<img src="./img/javascript11.png">
+
+<br/>
+
+## *13. Array Methods*
+
+<img src="./img/javascript11.png">
+
+<br/>
 
 <br/>
 

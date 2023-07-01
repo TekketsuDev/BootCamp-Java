@@ -11,3 +11,4 @@ do {
 } while (numero > 0);
 
 console.log('La variable numero es ' + numero);
+
