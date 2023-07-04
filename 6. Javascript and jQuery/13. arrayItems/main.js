@@ -2,6 +2,7 @@
 const myArray = [];
 let emojis = ['🍇','🍈','🍉','🍊','🍋','🍌','🍍','🥭','🍎','🍏','🍐','🍑','🍒','🍓','🫐','🥝','🍅','🫒','🥥','🥑','🍆','🥔','🥕','🌽','🌶','🫑','🥒','🥬','🥦','🧄','🧅','🍄','🥜','🫘','🌰','🍞','🥐','🥖','🫓','🥨','🥯','🥞','🧇','🧀','🍖','🍗','🥩','🥓','🍔','🍟','🍕','🌭','🥪','🌮','🌯','🫔','🥙','🧆','🥚','🍳','🥘','🍲','🫕','🥣','🥗','🍿','🧈','🧂','🥫','🍱','🍘','🍙','🍚','🍛','🍜','🍝','🍠','🍢','🍣','🍤','🍥','🥮','🍡','🥟','🥠','🥡','🦀','🦞','🦐','🦑','🦪','🍦','🍧','🍨','🍩','🍪','🎂','🍰','🧁','🥧','🍫','🍬','🍭','🍮','🍯','🍼','🥛','☕','🫖','🍵','🍶','🍾','🍷','🍸','🍹','🍺','🍻','🥂','🥃','🫗','🥤','🧋','🧃','🧉','🧊'];
 
+
 function printArray(){
     document.getElementById("displayArray").innerHTML =  '[' + myArray + ']' ;
 }
@@ -26,8 +27,16 @@ function performUnshift() {
 
 function performInsertAt() {
     let insertIndex = document.getElementById("insertIndex").value;
+    if (insertIndex <= myArray.length){
     let valueToAdd = getRandomEmoji();
+    myArray.splice(insertIndex, 0 , valueToAdd);
     printArray();
+    $("#insertIndex").css("background-color", "#ffffff");
+    }
+    else{
+        $("#insertIndex").css("background-color", "#ffc107");
+    }
+
 }
 
 function performPop() {
@@ -42,21 +51,22 @@ function performShift() {
 
 function performRemoveAt() {
     let removeIndex = document.getElementById("removeIndex").value;
-    let removedValue = myArray.splice(removeIndex, 1)[0];
-    printArray();
+
+    if (removeIndex <= myArray.length){
+        myArray.splice(removeIndex, 1);
+        printArray();
+        $("#in2-num").css("background-color", "#ffffff");
+    }else {
+        $("#in2-num").css("background-color", "#ffc107");
+    }
 }
 
 document.getElementById("push").addEventListener("click", performPush);
 document.getElementById("unshift").addEventListener("click", performUnshift);
-document.getElementById("insertat").addEventListener("click", performInsertAt);
+document.getElementById("insert").addEventListener("click", performInsertAt);
 document.getElementById("pop").addEventListener("click", performPop);
 document.getElementById("shift").addEventListener("click", performShift);
-document.getElementById("removeat").addEventListener("click", performRemoveAt);
-
-
-
-
-
+document.getElementById("remove").addEventListener("click", performRemoveAt);
 
 
 

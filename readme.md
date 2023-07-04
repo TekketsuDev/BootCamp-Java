@@ -656,15 +656,39 @@ do{
 
 <br/>
 
-## *13. Array Methods*
+## *13. Array Items*
 
-<img src="./img/javascript11.png">
+<img src="./img/javascript12.png">
+
+<br/>
+
+## *14. Toggle Paragraph*
+
+<img src="./img/javascript13.png">
+
+<br/>
+
+## *15. Rock Papper Scissors*
+
+<img src="./img/javascript14.png">
+
+<br/>
+
+## *16. Calculator*
+
+<img src="./img/javascript15.png">
 
 <br/>
 
 <br/>
 
 # 🐬 MySQL
+
+## *1. Solution UML*
+
+<img src="./img/mysql1.png">
+
+<br/>
 
 <br/>
 

@@ -1,0 +1,4 @@
+SHOW DATABASES;
+SHOW SCHEMAS;
+
+USE mysql;
