@@ -402,7 +402,6 @@ Creamos un alias para acortar comandos de git
 </br>
 
 
-
 # 🅱️ Bootstrap
 
 ## *1. Media Querrys*
