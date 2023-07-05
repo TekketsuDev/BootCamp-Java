@@ -4,7 +4,7 @@ Este repositorio contiene todos mis proyectos y temarios realizados durante mi b
 <br/>
 
 # 📋Indice
-- [💭 Certificationes Azure](#💭-certificationes-azure)
+- [💭 Certificationes Azure](#-certificationes-azure)
     - [AZ-900](#az-900)
     - [DP-900](#az-900)
 - [✴️ Regex](#✴️-regex) 
