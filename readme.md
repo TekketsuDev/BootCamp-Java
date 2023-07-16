@@ -33,7 +33,13 @@ Este repositorio contiene todos mis proyectos y temarios realizados durante mi b
 
 ## DP-900
 
-<img src="img/azure1.png">
+<img src="img/azure2.png">
+
+<br/>
+
+## SC-900
+
+<img src="img/azure3.png">
 
 <br/>
 
@@ -696,7 +702,47 @@ do{
 
 # ♨️ Java
 
+## *1. Escape Sequence*
+
+<img src="./img/java1.png">
+
 <br/>
+
+## *2. Suma*
+
+<img src="./img/java2.png">
+
+<br/>
+
+## *3. Type*
+
+<img src="./img/java3.png">
+
+<br/>
+
+## *4. Circular Range*
+
+<img src="./img/java4.png">
+
+<br/>
+
+## *5. All Range*
+
+
+|   Nombre   |   Tipo    | Tamaño | Valor por Defecto |    Rango    |
+|:----------:|:-----------------:|:------:|:-----------------:|:--------------------:|
+|   boolean   |    Logico    | 1 bits | false |  0 (false) or 1 (true)        |
+|   byte   |    Numero Entero   | 8 bits | 0 |  -128 to 127                  |
+|   char   |    Caracter   | 16 bits | 0 |  ('\u0000') to 65535 ('\uffff')   |
+|   short   |    Numero Entero   | 16 bits | 0 |       -32768 to 32767       |
+|   int   |    Numero Entero   | 32 bits | 0 |  -2147483648 to 2147483647    |
+|   long   |    Numero Entero   | 64 bits | 0l 0 0l |  -9223372036854775808 to 9223372036854775807    |
+|   float   |    Numero Real   | 32 bits | 0.0f 0 0.0F |  0.14012985e-44 to 0.34028235e39    |
+|   double   |    Numero Real   | 32 bits | 0.0d 0 0.0D |  4.94065645841246544e-324 to 1.79769313486231570e308    |
+
+
+<br/>
+
 
 <br/>
 

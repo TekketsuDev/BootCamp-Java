@@ -121,7 +121,7 @@ h1 {
 
 p,
 span {
-    font-size: .75rem;
+    font-size: 0.75rem;
 }
 
 .display {
@@ -157,13 +157,13 @@ label {
         align-items: center;
         justify-content: center;
     }
+    &__title {
+        grid-area: title;
+        display: flex;
+        align-items: flex-end;
+    }
 }
 
-.title {
-    grid-area: title;
-    display: flex;
-    align-items: flex-end;
-}
 
 .theme {
     place-self: end;
@@ -172,9 +172,7 @@ label {
     text-align: center;
     
 }
-.theme-container {
-  width: 100%;  
-}
+
 .theme-numbers {
     grid-area: theme-numbers;
     place-self: end;
@@ -224,7 +222,7 @@ label {
     filter: brightness(1.33);
 }
 
-.toggled-on {
+.active {
     opacity: 1;
 }
 
@@ -251,7 +249,6 @@ label {
 .container-display {
     grid-area: display;
     width: 100%;
-    
 }
 
 .display {
@@ -259,7 +256,7 @@ label {
     color: var(--screen-text-color);
     box-sizing: border-box;
     padding: .9em .8em .7em .8em;
-    margin-bottom: .7em;
+    margin-bottom: 0.7em;
     width: 100%;
     border-radius: 10px;
     overflow: auto;
